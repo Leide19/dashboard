@@ -1,3 +1,8 @@
+const grupo = ["Leide", "Giovanna", "Pablo", "Marcos", "Alexandre"];
+
+localStorage.setItem("grupo: ", JSON.stringify(grupo));
+
+
 // ================== CONFIGURAÇÕES ==================
 const MQTT_HOST = "10.136.42.59";   // IP do computador com Mosquitto
 const MQTT_PORT = 9001;
